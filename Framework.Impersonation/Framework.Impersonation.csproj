@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jose Carlos de Jesus Junior</Authors>
+    <Description>It is a .NET Core/Standard library that provides impersonation capabilities</Description>
+    <Copyright>Copyright 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/juninhodigital/Framework.Impersonation/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/juninhodigital/Framework.Impersonation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/juninhodigital/Framework.Impersonation</RepositoryUrl>
+    <PackageIconUrl>https://github.com/juninhodigital/Framework.Core/blob/master/Icons/FS_IconSmall.png?raw=true</PackageIconUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Extension Methods, Library, Helper, Impersonation</PackageTags>
+    <PackageId>Framework.Services.Impersonation</PackageId>
+    <NeutralLanguage>English (United States)</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
   </PropertyGroup>
 
 </Project>
